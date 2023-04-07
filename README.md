@@ -28,3 +28,19 @@ Link to original data source: https://datahack.analyticsvidhya.com/contest/pract
 ### **Outlet Performance**
 ![Outlet type](https://user-images.githubusercontent.com/126993169/230658087-0ddcd73a-5e50-4920-b9d8-4f0c5d439087.png)
 ##### **Small grocery stores have much lower sales than the supermarket types. Supermarket type 3 is the top performer in generating sales.**
+
+## **Model**
+- I used a random forest model to predict Item Outlet Sales
+- The accuracy of the returned metrics is 60%
+- Based on that number with the availble data, this would not predict outlet sales very well.
+### **Recommendations**
+- More data is needed.
+- More featured variables relative to Item Outlet Sales would provide better sales predictions.
+- More information about the Outlets such as location and quarterly reports would provide great insight. 
+### **Limitations & Next Steps**
+- Limited data, relevant features, and lack of information produced a model that underperforms
+- The machine learning model used is simple compared to other methods. 
+- Even with this data, more complex machine learning could produce higher model accuracy. 
+
+##### **For further information**
+For any additional questions, please contact email
