@@ -19,4 +19,8 @@ Link to original data source: https://datahack.analyticsvidhya.com/contest/pract
 ## **Results**
 ### **Correlation to Item Outlet Sales**
 ![Correlation map](https://user-images.githubusercontent.com/126993169/230656021-4276269c-8da3-47a4-8d65-43febada6d29.png)
-#### **Item MRP is the only feature that relates well to Item Outlet Sales. More data would provide better predictive results.**
+##### **Item MRP is the only feature that relates well to Item Outlet Sales. More data would provide better predictive results.**
+
+### **Item Type Sales**
+![Item types](https://user-images.githubusercontent.com/126993169/230657020-2beecd76-bb4f-4ee7-be4b-54bb8feac4c0.png)
+##### **Each category sold well and no particular item type accounts for a majority of outlet sales.** 
