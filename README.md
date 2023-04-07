@@ -9,3 +9,11 @@ Link to original data source: https://datahack.analyticsvidhya.com/contest/pract
 ### **Data Dictionary**
 
 ![image](https://user-images.githubusercontent.com/126993169/230653647-9deec3e4-4899-4ad0-92b8-d38054aa5be6.png)
+
+## **Data preparation**
+- Filled missing values to retain information
+- Cleaned up data by removing incosistent labels
+- Verified no duplicated values for accuracy
+- Inspected columns to find correlations to sales
+
+##**Results**
