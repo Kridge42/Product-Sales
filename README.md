@@ -2,13 +2,12 @@
 ### Sales predictions for various stores
 ### Author: Kevin Ridge
 
-Exploring how multiple types of stores perform in terms of sales and how the products of these stores perform based on basic variables.
-
-Link to original data source: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
+Exploring various store perfomance in terms of sales and how their product types perform based on basic variables.
 
 ### **Data Dictionary**
-
 ![image](https://user-images.githubusercontent.com/126993169/230653647-9deec3e4-4899-4ad0-92b8-d38054aa5be6.png)
+
+Link to original data source: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
 
 ## **Data preparation**
 - Filled missing values to retain information
@@ -32,15 +31,15 @@ Link to original data source: https://datahack.analyticsvidhya.com/contest/pract
 ## **Model**
 - I used a random forest model to predict Item Outlet Sales
 - The accuracy of the returned metrics is 60%
-- Based on that number with the availble data, this would not predict outlet sales very well.
+- Based on that number with the availble data, this would not predict outlet sales very well
 ### **Recommendations**
-- More data is needed.
-- More featured variables relative to Item Outlet Sales would provide better sales predictions.
-- More information about the Outlets such as location and quarterly reports would provide great insight. 
+- More data is needed
+- More featured variables relative to Item Outlet Sales would provide better sales predictions
+- More information about the Outlets such as location and quarterly reports would provide great insight 
 ### **Limitations & Next Steps**
 - Limited data, relevant features, and lack of information produced a model that underperforms
-- The machine learning model used is simple compared to other methods. 
-- Even with this data, more complex machine learning could produce higher model accuracy. 
+- The machine learning model used is simple compared to other methods
+- Even with this data, more complex machine learning could produce higher model accuracy 
 
 ##### **For further information**
 For any additional questions, please contact my email
