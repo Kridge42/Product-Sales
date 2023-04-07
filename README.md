@@ -17,4 +17,6 @@ Link to original data source: https://datahack.analyticsvidhya.com/contest/pract
 - Inspected columns to find correlations to sales
 
 ## **Results**
-
+### **Correlation to Item Outlet Sales**
+![Correlation map](https://user-images.githubusercontent.com/126993169/230656021-4276269c-8da3-47a4-8d65-43febada6d29.png)
+#### **Item MRP is the only feature that relates well to Item Outlet Sales. More data would provide better predictive results.**
