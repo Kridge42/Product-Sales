@@ -16,4 +16,5 @@ Link to original data source: https://datahack.analyticsvidhya.com/contest/pract
 - Verified no duplicated values for accuracy
 - Inspected columns to find correlations to sales
 
-##**Results**
+## **Results**
+
