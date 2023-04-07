@@ -1,6 +1,6 @@
 # **Product Sales**
-### Sales predictions for various stores
-### Author: Kevin Ridge
+## **Sales predictions for various stores**
+#### Author: Kevin Ridge
 
 Exploring various store perfomance in terms of sales and how their product types perform based on basic variables.
 
