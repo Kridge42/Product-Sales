@@ -23,7 +23,7 @@ Link to original data source: https://datahack.analyticsvidhya.com/contest/pract
 
 ### **Item Type Sales**
 ![Item types](https://user-images.githubusercontent.com/126993169/230657020-2beecd76-bb4f-4ee7-be4b-54bb8feac4c0.png)
-##### **Each category sold well and no particular item type accounts for a majority of outlet sales.** 
+##### **Each category sold well. No particular item type accounts for a majority of outlet sales.** 
 
 ### **Outlet Performance**
 ![Outlet type](https://user-images.githubusercontent.com/126993169/230658087-0ddcd73a-5e50-4920-b9d8-4f0c5d439087.png)
@@ -43,4 +43,4 @@ Link to original data source: https://datahack.analyticsvidhya.com/contest/pract
 - Even with this data, more complex machine learning could produce higher model accuracy. 
 
 ##### **For further information**
-For any additional questions, please contact email
+For any additional questions, please contact my email
