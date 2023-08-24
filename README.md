@@ -57,6 +57,10 @@ Link to the original data source: https://datahack.analyticsvidhya.com/contest/p
 - ## **Tree-based model's feature importances**
 ![image](https://github.com/Kridge42/Product-Sales/assets/126993169/cfbcf01c-315b-4e66-a853-48b50545b65a)
 
+### **Random Forest Model Interpretations**
+- According to my random forest model, the item maximum retail price (Item_MRP) is the most important feature. This seems fairly intuitive as price will often dictate sales. 
+- Grocery stores, item visibility, and type 3 supermarkets were all top coefficients in the linear regression model. 
+- About half the time, a decision was made based on Item_MRP. - - The model made decisions based on the Grocery Stores about 20% of the time.
+- This random forest model did a decent job of making decisions based on both effective and ineffective feature
 
-##### **For further information**
-For any additional questions, please contact by email
+##### **For any additional questions, please contact me by email**
