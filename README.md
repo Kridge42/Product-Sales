@@ -2,16 +2,16 @@
 ### **Sales predictions for various stores**
 #### Author: Kevin Ridge
 
-Exploring various store perfomance in terms of sales and how their product types perform based on basic variables.
+Exploring various store performance in terms of sales and how their product types perform based on basic variables.
 
 ### **Data Dictionary**
 ![image](https://user-images.githubusercontent.com/126993169/230653647-9deec3e4-4899-4ad0-92b8-d38054aa5be6.png)
 
-Link to original data source: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
+Link to the original data source: https://datahack.analyticsvidhya.com/contest/practice-problem-big-mart-sales-iii/
 
 ## **Data preparation:**
 - Filled missing values to retain information
-- Cleaned up data by removing incosistent labels
+- Cleaned up data by removing inconsistent labels
 - Verified no duplicated values for accuracy
 - Inspected columns to find correlations to sales
 
@@ -31,7 +31,7 @@ Link to original data source: https://datahack.analyticsvidhya.com/contest/pract
 ## **Model:**
 - I used a random forest model to predict item outlet sales.
 - The accuracy of the returned metrics is 60%.
-- Based on that number with the availble data, this would not predict outlet sales very well.
+- Based on that number with the available data, this would not predict outlet sales very well.
 ### **Recommendations:**
 - More data is needed.
 - More featured variables relative to item outlet sales would provide better sales predictions.
@@ -39,7 +39,28 @@ Link to original data source: https://datahack.analyticsvidhya.com/contest/pract
 ### **Limitations & Next Steps:**
 - Limited data, irrelevant features, and lack of information produced a model that underperforms.
 - The machine learning model used here is rather simple compared to others.
-- Even with this data, s more complex machine learning model could produce more accurate results. 
+- Even with this data, s more complex machine-learning model could produce more accurate results.
 
-##### **For further information**
-For any additional questions, please contact my email
+- ## **LinearRegression coefficients plot**
+![image](https://github.com/Kridge42/Product-Sales/assets/126993169/70d0e7e6-93d6-4a47-84fe-c0fb2aa6b342)
+
+### **Model observations based on 3 largest coefficients**
+- According to this model, the type 3 supermarket is observed to increase Item Outlet Sales by 1525.01 rupees. 
+ - Build more supermarket type 3's, and sales could rise significantly.
+- This model observes a negative relationship between Outlet Sales and Item visibility.
+ - In other words, the visibility of an item is not likely to affect whether or not a customer buys items.
+ - The Item Visibility is a potential opportunity for improvement of sales. If we took a much closer look at individual item sales and their visibility, we might be able to increase the sales of particular items.
+- In this model, the Grocery stores are decreasing sales by 1608.00 rupees.
+ - Grocery stores have many produce items that will expire before purchase. This is pure speculation based on this model, but room for improvement could happen in inventory management at the grocery stores.
+
+
+- ## **Tree-based model's feature importances**
+![image](https://github.com/Kridge42/Product-Sales/assets/126993169/cfbcf01c-315b-4e66-a853-48b50545b65a)
+
+### **Random Forest Model Interpretations**
+- According to my random forest model, the item maximum retail price (Item_MRP) is the most important feature. This seems fairly intuitive as price will often dictate sales. 
+- Grocery stores, item visibility, and type 3 supermarkets were all top coefficients in the linear regression model. 
+- About half the time, a decision was made based on Item_MRP. - - The model made decisions based on the Grocery Stores about 20% of the time.
+- This random forest model did a decent job of making decisions based on both effective and ineffective feature
+
+##### **For any additional questions, please contact me by email**
