@@ -39,7 +39,14 @@ Link to original data source: https://datahack.analyticsvidhya.com/contest/pract
 ### **Limitations & Next Steps:**
 - Limited data, irrelevant features, and lack of information produced a model that underperforms.
 - The machine learning model used here is rather simple compared to others.
-- Even with this data, s more complex machine learning model could produce more accurate results. 
+- Even with this data, s more complex machine learning model could produce more accurate results.
+
+- ### **LinearRegression coefficients plot**
+- ![image](https://github.com/Kridge42/Product-Sales/assets/126993169/70d0e7e6-93d6-4a47-84fe-c0fb2aa6b342)
+
+- ### **Tree-based model's feature importances**
+- ![image](https://github.com/Kridge42/Product-Sales/assets/126993169/cfbcf01c-315b-4e66-a853-48b50545b65a)
+
 
 ##### **For further information**
 For any additional questions, please contact my email
