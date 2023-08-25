@@ -61,6 +61,13 @@ Link to the original data source: https://datahack.analyticsvidhya.com/contest/p
 - According to my random forest model, the item maximum retail price (Item_MRP) is the most important feature. This seems fairly intuitive as price will often dictate sales. 
 - Grocery stores, item visibility, and type 3 supermarkets were all top coefficients in the linear regression model. 
 - About half the time, a decision was made based on Item_MRP. - - The model made decisions based on the Grocery Stores about 20% of the time.
-- This random forest model did a decent job of making decisions based on both effective and ineffective feature
+- This random forest model did a decent job of making decisions based on both effective and ineffective features.
+
+![image](https://github.com/Kridge42/Product-Sales/assets/126993169/5d69afe1-0066-4b15-a142-42f3c8b2c05d)
+
+- SHAP value summary plots really drive at the same features in the model. The SHAP bar plot and dot plot clearly reinforce the top five most important features. Four of the five top SHAP values are in the most important features and that relationship is clearly defined in the dot plot. Red means a higher importance impact on model output and blue means less importance impact on model output. Purple is between the two and it is interesting to note the dot plot displays both positive and negative values as well affected and how much that feature was valued at the same time.   
+
+![image](https://github.com/Kridge42/Product-Sales/assets/126993169/20876498-58b3-45a9-9bfb-044ddb2122de)
+
 
 ##### **For any additional questions, please contact me by email**
