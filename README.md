@@ -83,4 +83,9 @@ Link to the original data source: https://datahack.analyticsvidhya.com/contest/p
   - Starchy foods tend to sell because they are cheap, full of calories, and are usually pleasure foods.
 ![image](https://github.com/Kridge42/Product-Sales/assets/126993169/2e81ca0f-a283-44b4-948d-29ae82962eb0)
 
+The plot below is for the lowest sales in a single row for this data.
+- According to the model, Grocery Stores are not doing very well when compared to other types of stores.
+  - I would say that grocery stores have necessity items and many are fresh that will have to be discounted before expiring or thrown out completely.
+![image](https://github.com/Kridge42/Product-Sales/assets/126993169/21f802a3-a75e-4c30-8343-ef4566bd4f2b)
+
 ##### **For any additional questions, please contact me by email**
