@@ -85,15 +85,16 @@ Link to the original data source: https://datahack.analyticsvidhya.com/contest/p
 ![image](https://github.com/Kridge42/Product-Sales/assets/126993169/62bec72b-fa57-4588-b9d6-719cf9d5c140)
 
 
-The plot below is for the lowest sales in a single row for this data.
+The ShapForce plot below is for the lowest sales in a single row for this data.
 - According to the model, Grocery Stores are not doing very well when compared to other types of stores.
   - I would say that grocery stores mainly carry necessity items and fresh foods. Fresh foods often have to be discounted before expiring or thrown out completely.
-![image](https://github.com/Kridge42/Product-Sales/assets/126993169/21f802a3-a75e-4c30-8343-ef4566bd4f2b)
+![image](https://github.com/Kridge42/Product-Sales/assets/126993169/195cc8da-8b9a-4de3-a2e6-0977dba61bd3)
+
 
 - The LIME plot below highlights the poor sales of small grocery stores in this model.
  - Interestingly, if the outlet size is medium, the model says it could increase sales.
  - Starchy foods usually have a longer shelf life than fresh foods. The positive effect on sales is likely due to the fact that starchy foods like potato chips can stay in stock longer before expiring.
- - 
+ - Again, this model finds several features with a negative relationship to sales for this particular row of data.
 ![image](https://github.com/Kridge42/Product-Sales/assets/126993169/62634e25-6e86-4e02-9900-26a1e18db1b6)
 
 
