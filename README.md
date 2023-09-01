@@ -69,5 +69,33 @@ Link to the original data source: https://datahack.analyticsvidhya.com/contest/p
 
 ![image](https://github.com/Kridge42/Product-Sales/assets/126993169/20876498-58b3-45a9-9bfb-044ddb2122de)
 
+- The ShapForce plot below shows how the model predictions were influenced by each feature for the highest row of Item Outlet Sales.
+   - In other words, for this individual row of data, the Item_MRP increases the sales the most.
+   - Some other notes, both grocery store and supermarket type 3 are at zero here. That's because this row of data is not from either of those types of stores.
+   - Item Visibility does positively affect sales here at this store. Look into where this store is placing items on shelves to see if that helps increase sales at other supermarkets.   
+![image](https://github.com/Kridge42/Product-Sales/assets/126993169/e6696098-b526-465c-9ec4-1dca13f3dcd5)
+
+
+- The LIME plot below evaluates the same row of features as the shapForce plot above.
+  - The Value of Grocery Store is 0 but it appears orange or positive. According to the model, not being a grocery should increase sales.
+  - Increasing Item_MRP reasonably should increase sales based on the model findings.
+  - Supermarket type 1 is orange or positive while Supermarket type 3 is blue or negative. This information confirms that this row of sales data comes from a Supermarket type 1. 
+  - Several features are listed in blue. These items might have a negative effect on sales in this particular row for many reasons such as shelf life for fresh items, theft, store discounts, vendor pricing, and inventory management. However, this could also mean that this particular store does not sell these items at all.
+  - Starchy foods tend to sell because they are cheap, full of calories, and are usually pleasure foods.
+![image](https://github.com/Kridge42/Product-Sales/assets/126993169/62bec72b-fa57-4588-b9d6-719cf9d5c140)
+
+
+The ShapForce plot below is for the lowest sales in a single row for this data.
+- According to the model, Grocery Stores are not doing very well when compared to other types of stores.
+  - I would say that grocery stores mainly carry necessity items and fresh foods. Fresh foods often have to be discounted before expiring or thrown out completely.
+![image](https://github.com/Kridge42/Product-Sales/assets/126993169/195cc8da-8b9a-4de3-a2e6-0977dba61bd3)
+
+
+- The LIME plot below highlights the poor sales of small grocery stores in this model.
+ - Interestingly, if the outlet size is medium, the model says it could increase sales.
+ - Starchy foods usually have a longer shelf life than fresh foods. The positive effect on sales is likely due to the fact that starchy foods like potato chips can stay in stock longer before expiring.
+ - Again, this model finds several features with a negative relationship to sales for this particular row of data.
+![image](https://github.com/Kridge42/Product-Sales/assets/126993169/62634e25-6e86-4e02-9900-26a1e18db1b6)
+
 
 ##### **For any additional questions, please contact me by email**
