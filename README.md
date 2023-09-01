@@ -73,9 +73,10 @@ Link to the original data source: https://datahack.analyticsvidhya.com/contest/p
    - In other words, for this individual row of data, the Item_MRP increases the sales the most.
    - Some other notes, both grocery store and supermarket type 3 are at zero here. That's because this row of data is not from either of those types of stores.
    - Item Visibility does positively affect sales here at this store. Look into where this store is placing items on shelves to see if that helps increase sales at other supermarkets.   
-![image](https://github.com/Kridge42/Product-Sales/assets/126993169/4bb3e573-3281-4568-b2e9-54636e81000e)
+![image](https://github.com/Kridge42/Product-Sales/assets/126993169/e6696098-b526-465c-9ec4-1dca13f3dcd5)
 
-- The LIME explainer below evaluates the same row of features as the shapForce plot above.
+
+- The LIME plot below evaluates the same row of features as the shapForce plot above.
   - The Value of Grocery Store is 0 but it appears orange or positive. According to the model, not being a grocery should increase sales.
   - Increasing Item_MRP reasonably should increase sales based on the model findings.
   - Supermarket type 1 is orange or positive while Supermarket type 3 is blue or negative. This information confirms that this row of sales data comes from a Supermarket type 1. 
