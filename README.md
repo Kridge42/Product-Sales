@@ -69,5 +69,31 @@ Link to the original data source: https://datahack.analyticsvidhya.com/contest/p
 
 ![image](https://github.com/Kridge42/Product-Sales/assets/126993169/20876498-58b3-45a9-9bfb-044ddb2122de)
 
+-5,788
+-3,788
+-1,788
+211.9
+2,212
+4,212
+6,212
+8,212
+1.021e+4
+Item_Type_Dairy = 1
+Outlet_Size_High = 1
+Outlet_Type_Grocery Store = 0
+Item_Visibility = 0.0195
+Item_MRP = 261.3
+base value
+8,304.04
+8,304.04
+higher
+→
+f(x)
+←
+lower
+Outlet_Type_Supermarket Type1 = 1
+Outlet_Type_Supermarket Type1 = 1
+![image](https://github.com/Kridge42/Product-Sales/assets/126993169/4bb3e573-3281-4568-b2e9-54636e81000e)
+
 
 ##### **For any additional questions, please contact me by email**
