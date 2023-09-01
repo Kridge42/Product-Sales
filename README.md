@@ -81,7 +81,8 @@ Link to the original data source: https://datahack.analyticsvidhya.com/contest/p
   - Supermarket type 1 is orange or positive while Supermarket type 3 is blue or negative. This information confirms that this row of sales data comes from a Supermarket type 1. 
   - Several features are listed in blue. These items might have a negative effect on sales in this particular row for many reasons such as shelf life for fresh items, theft, store discounts, vendor pricing, and inventory management. However, this could also mean that this particular store does not sell these items at all.
   - Starchy foods tend to sell because they are cheap, full of calories, and are usually pleasure foods.
-![image](https://github.com/Kridge42/Product-Sales/assets/126993169/2e81ca0f-a283-44b4-948d-29ae82962eb0)
+![image](https://github.com/Kridge42/Product-Sales/assets/126993169/62bec72b-fa57-4588-b9d6-719cf9d5c140)
+
 
 The plot below is for the lowest sales in a single row for this data.
 - According to the model, Grocery Stores are not doing very well when compared to other types of stores.
